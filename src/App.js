@@ -13,12 +13,12 @@ function App() {
     data:[],
   };
   const [state, dispatch] = useState(initalState);
-  useEffect(() => {
-    ;(async () => {
-      const results = await getList();
-      dispatch({status:"completed",data:results});
-    })()
-  }, []);
+//   useEffect(() => {
+//     ;(async () => {
+//       const results = await getList();
+//       dispatch({status:"completed",data:results});
+//     })()
+//   }, []);
 
  
 
